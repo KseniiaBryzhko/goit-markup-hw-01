@@ -5,111 +5,111 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Головна</title>
+	<title>Студія</title>
 </head>
 
 <body>
-	<header>
-		<a href="" target="_blank" title="WebStudio">
-			WebStudio
-		</a>
-
+	<header class="main-row">
 		<nav>
+			<a href="/" target="_blank" title="WebStudio">
+				WebStudio
+			</a>
+
 			<ul>
-				<li><a href="">Студія</a></li>
-				<li><a href="">Портфоліо</a></li>
-				<li><a href="">Контакти</a></li>
+				<li class="menu-nav"><a href="">Студія</a></li>
+				<li class="menu-nav"><a href="">Портфоліо</a></li>
+				<li class="menu-nav"><a href="">Контакти</a></li>
 			</ul>
 		</nav>
 
-		<address>
-			<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-		</address>
-
-		<address>
-			<a href="tel:+380961111111">+38 096 111 11 11</a>
-		</address>
-
-		<h1>Ефективні рішення для вашого бізнесу</h1>
-
-		<button type="button">Замовити послугу</button>
+		<ul>
+			<li class="menu-contacts">info@devstudio.com</li>
+			<li class="menu-contacts">+38 096 111 11 11</li>
+		</ul>
 	</header>
 
 	<main>
-		<ul class="features">
-			<li class="feature">
-				<h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-				<p class="feature-description">Ідейні міркування, i навіть початок повсякденної роботи з формування позиції.</p>
-			</li>
+		<section class="hero">
+			<h1>Ефективні рішення для вашого бізнесу</h1>
+			<button type="button">Замовити послугу</button>
+		</section>
 
-			<li class="feature">
-				<h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
-				<p class="feature-description">Завдання організації, особливо рамки i місце навчання кадрів тягне у себе.</p>
-			</li>
+		<section>
+			<!-- <h2>Особливості</h2> - передбачуваний заголовок -->
+			<ul class="features">
+				<li class="feature">
+					<h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+					<p class="feature-description">Ідейні міркування, i навіть початок повсякденної роботи з формування
+						позиції.
+					</p>
+				</li>
 
-			<li class="feature">
-				<h3 class="feature-title">ПЛАНУВАННЯ</h3>
-				<p class="feature-description">Так само консультація з широким активом значною мірою зумовлює.</p>
-			</li>
+				<li class="feature">
+					<h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
+					<p class="feature-description">Завдання організації, особливо рамки i місце навчання кадрів тягне у
+						себе.</p>
+				</li>
 
-			<li class="feature">
-				<h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-				<p class="feature-description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-			</li>
-		</ul>
+				<li class="feature">
+					<h3 class="feature-title">ПЛАНУВАННЯ</h3>
+					<p class="feature-description">Так само консультація з широким активом значною мірою зумовлює.</p>
+				</li>
 
-		<h2>Чим ми займаємося</h2>
-		<ul class="activities">
-			<li class="activity">
-				<img class="activity-image" src="./images/img2.jpg" alt="coding" width="370" height="294">
-			</li>
+				<li class="feature">
+					<h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+					<p class="feature-description">Значимість цих проблем настільки очевидна, що реалізація планових
+						завдань.</p>
+				</li>
+			</ul>
+		</section>
 
-			<li class="activity">
-				<img class="activity-image" src="./images/img1.jpg" alt="mark-up" width="370" height="294">
-			</li>
+		<section>
+			<h2>Чим ми займаємося</h2>
+			<ul class="activities">
+				<li class="activity">
+					<img class="activity-image" src="./images/img2.jpg" alt="coding" width="370" height="294">
+				</li>
 
-			<li class="activity">
-				<img class="activity-image" src="./images/img.jpg" alt="design" width="370" height="294">
-			</li>
-		</ul>
+				<li class="activity">
+					<img class="activity-image" src="./images/img1.jpg" alt="mark-up" width="370" height="294">
+				</li>
 
-		<h2>Наша команда</h2>
-		<ul class="team">
-			<li class="team-member">
-				<div class="team-img">
+				<li class="activity">
+					<img class="activity-image" src="./images/img.jpg" alt="design" width="370" height="294">
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Наша команда</h2>
+			<ul class="team">
+				<li class="team-member">
 					<img class="team-image" src="./images/Демяненко.jpg" alt="Ігор Дем'яненко" width="270" height="260">
-				</div>
-				<p class="name">Ігор Дем'яненко</p>
-				<p class="job">Product Designer</p>
-			</li>
+					<h3 class="name">Ігор Дем'яненко</h3>
+					<p class="job">Product Designer</p>
+				</li>
 
-			<li class="team-member">
-				<div class="team-img">
+				<li class="team-member">
 					<img class="team-image" src="./images/Рєпіна.jpg" alt="Ольга Рєпіна" width="270" height="260">
-				</div>
-				<p class="name">Ольга Рєпіна</p>
-				<p class="job">Frontend Developer</p>
-			</li>
+					<h3 class="name">Ольга Рєпіна</h3>
+					<p class="job">Frontend Developer</p>
+				</li>
 
-			<li class="team-member">
-				<div class="team-img">
+				<li class="team-member">
 					<img class="team-image" src="./images/Тарасов.jpg" alt="Микола Тарасов" width="270" height="260">
-				</div>
-				<p class="name">Микола Тарасов</p>
-				<p class="job">Marketing</p>
-			</li>
+					<h3 class="name">Микола Тарасов</h3>
+					<p class="job">Marketing</p>
+				</li>
 
-			<li class="team-member">
-				<div class="team-img">
+				<li class="team-member">
 					<img class="team-image" src="./images/Єрмаков.jpg" alt="Михайло Єрмаков" width="270" height="260">
-				</div>
-				<p class="name">Михайло Єрмаков</p>
-				<p class="job">UI Designer</p>
-			</li>
-		</ul>
-
-
+					<h3 class="name">Михайло Єрмаков</h3>
+					<p class="job">UI Designer</p>
+				</li>
+			</ul>
+		</section>
 	</main>
+
 	<footer class="contacts">
 		<a href="" target="_blank" title="WebStudio">
 			WebStudio
